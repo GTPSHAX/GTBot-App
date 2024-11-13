@@ -1,7 +1,7 @@
 const config = {
     bot: { // Configuration for bot application
-        token: "Put your discord token",
-        id: "1305077447863042098",
+        token: "ClientToken",
+        id: "ClientID",
         color_reply: [250, 64, 50], // red, green, blue
 
         commands_access: {
@@ -9,17 +9,17 @@ const config = {
         },
     },
     server: { // Configuration for your ENet Server
-        app_name: "JarStoree.exe",
-        name: "CleoPS",
+        app_name: "Server.exe",
+        name: "GrowPlus",
         reason_down: "Maintenance", // Default reason in announcement if server get down
     },
     discord: {
-        status_server: "1305728415495753758",   // channelID for showing status server
-        announcement_server: "1304968068878827613",    // channelID for showing status server
+        status_server: "1234567890",   // channelID for showing status server
+        announcement_server: "1234567890",    // channelID for showing status server
         notif: {    // Sending notifications in channelID
-            down: {
+            down: { // When server get down
                 status: true,
-                channel: "1304968068878827613"
+                channel: "1234567890"
             }
         }
     },
