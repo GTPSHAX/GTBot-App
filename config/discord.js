@@ -1,6 +1,6 @@
 const config = {
     bot: { // Configuration for bot application
-        token: "",
+        token: "Put your discord token",
         id: "1305077447863042098",
         color_reply: [250, 64, 50], // red, green, blue
 
