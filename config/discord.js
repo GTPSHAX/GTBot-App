@@ -1,6 +1,6 @@
 const config = {
     bot: { // Configuration for bot application
-        token: "MTMwNTA3NzQ0Nzg2MzA0MjA5OA.GeE_HE.8bwMmIB0uxfoG6BZ6foH16XIwdBruSkdPE7aJI",
+        token: "",
         id: "1305077447863042098",
         color_reply: [250, 64, 50], // red, green, blue
 
